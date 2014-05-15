@@ -1,7 +1,7 @@
 Pulse PHP Web Panel
 ==========
 
-A PHP Web Panel developed to view server status and statistics while also providing an administrivite view. Interfaces with the Cadence API.
+A PHP Web Panel developed to view server status and statistics while also providing an administrative view. Interfaces with the Cadence API.
 ------------------------------------------------------
 
 Contributing
