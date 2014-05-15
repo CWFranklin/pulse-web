@@ -1,0 +1,255 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Light.eot');
+  src: url('../fonts/Lato-Light.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Lato-Light.woff') format('woff'),
+       url('../fonts/Lato-Light.ttf') format('truetype'),
+       url('../fonts/Lato-Light.svg#Lato-Light') format('svg');
+}
+
+body {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background-color: #eee;
+  font-family: 'Lato';
+  overflow-x: hidden;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+  font-size:20px;
+  
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#PulseHeader {
+	font-family: 'Lato';
+	font-weight:'light';
+	color:#FF0000;
+	font-size:56px;
+}
+
+#PulseText {
+	font-family: 'Lato';
+	font-weight:'light';
+	color:grey;
+	font-size:28px;
+	padding-bottom:30px;
+}
+
+.centertext {
+	text-align:center;
+}
+
+.centralalignment {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.buttonred{
+	background-color: #FF0000; 
+	border-color:#FF0000;
+	color:#fff;
+}
+
+.buttonred:hover{
+	background-color: #C80000; 
+	border-color:#C80000;
+}
+
+.highlightred:focus {
+	border-color: #FF0000;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(200, 0, 0, .6);
+			box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(200, 0, 0, .6);
+}
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+  }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a {
+  color: #fff;
+  background-color: #FF0000;
+}
+
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 10px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.floatformelement{
+	float:left !important;
+}
+
+.clearfloat{
+	clear:both;
+}
+
+.redtext {
+	color:#FF0000;
+}
+
+.Online {
+	color:green;
+	font-weight:bold;
+}
+
+.Offline {
+	color:#FF0000;
+	font-weight:bold;
+}
+
+#pulsethumbnail {
+	float:left;
+	padding-top:8px;
+	padding-right:8px;
+}
+
+.coloured {
+	background-color:red;
+	list-style-type: none;
+}
+
+.gageScheme {
+	background-color: #E4E4E4;
+	border: 1px black solid;
+	list-style-type: none;
+}
+
+#base {
+	list-style-type: none;
+}
+
+.alertoverlay {
+	position:absolute;
+	z-index:99;
+}
+
+.height-310 {
+    height: 310px;
+}
+
+.overlayNum {
+	z-index: 100;
+    position: relative;
+    color: #333;
+    font-size: 80px;
+    font-weight: bold;
+    left: 0px;
+    top: -230px;
+}
+
+#tableBody {
+	cursor: pointer;
+}
+
+.padding-left-20 {
+	padding-left: 20px;
+}
+
+li{
+	list-style: none;
+}
+
+.table-nonfluid {
+   width: auto;
+}
